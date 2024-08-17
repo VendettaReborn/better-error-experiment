@@ -1,0 +1,11 @@
+[package]
+name = "tracing-examples"
+version = "0.0.0"
+publish = false
+edition = "2018"
+rust-version = "1.63.0"
+
+[dev-dependencies]
+stack-error = { path = "../stack-error" }
+stack-error-macro = { path = "../stack-error-macro" }
+snafu = "0.8"
